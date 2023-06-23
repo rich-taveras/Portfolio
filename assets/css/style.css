@@ -1,0 +1,140 @@
+ header {
+     display: flex;
+     flex-wrap: wrap;
+     border: 1px red solid;
+     background-color: white;
+     height: 75px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: end;
+     width: 50%;
+     border: 1px black solid;
+     margin-bottom: 20px;
+     color: white;
+     font-size: xx-large;
+     background-color: black;
+ }
+
+ header nav {
+     width: 50%;
+     border: 1px black solid;
+     color: gray;
+ }
+
+ nav ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     font-size: 14pt;
+ }
+
+ figure {
+     background-image: url(https://images.pexels.com/photos/963278/pexels-photo-963278.jpeg?auto=compress&cs=tinysrgb&w=600);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 200px;
+
+ }
+
+ img {
+   width: 100%;
+   height: auto;
+ }
+
+ h3 {
+    border-radius: 15%;
+    margin: 10%;
+    border: 1px black solid;
+}
+ .left-side {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 10%;
+ }
+
+ .left-side .title {
+     width: 10%;
+     border-right: 2px black solid;
+     text-align: right;
+     font-size: 250%;
+     display: flex;
+     justify-content: end;
+ }
+
+ .left-side .section-container {
+     width: 88%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .card {
+    width: 45%;
+    position: relative;
+    margin-top: 20px;
+ }
+
+.card h3 {
+    position: absolute;
+    z-index: 1;
+    margin: 10px;
+    bottom: 10%;
+    font-size: 16pt;
+    color: white;
+    background-color: black;
+}
+
+.section-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.section
+
+ #image1{
+    position: relative;
+    margin-top: 20px;
+ }
+
+ #image1 h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    font-size: 16pt;
+ }
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+  
+  /* twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 100%;
+    font-size: 150% !important;
+  }
+  /* linkein */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    width: 100%;
+    font-size: 150% !important;
+  }
+  /* github */
+  .fa-github {
+    background: black;
+    color: white;
+    width: 100%;
+    font-size: 150% !important;
+  }
+  
