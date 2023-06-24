@@ -1,4 +1,4 @@
- header {
+header {
      display: flex;
      flex-wrap: wrap;
      background-color: white;
@@ -8,12 +8,10 @@
 header h1 {
     display: flex;
     justify-content: end;
-     width: 50%;
-     border: 1px black solid;
-     margin-bottom: 20px;
-     color: white;
-     font-size: 200%;
-     background-color: black;
+    width: 50%;
+    color: white;
+    font-size: 200%;
+    background-color: black;
  }
 
  header nav {
@@ -36,37 +34,27 @@ header h1 {
  }
 
  figure {
-     background-image: url(https://images.pexels.com/photos/963278/pexels-photo-963278.jpeg?auto=compress&cs=tinysrgb&w=600);
-     background-size: cover;
-     background-repeat: no-repeat;
-     height: 200px;
-
- }
+    background-image: url(https://images6.alphacoders.com/107/thumb-1920-1079688.jpg); 
+    background-repeat: no-repeat;
+    height: 200px;
+}
 
  img {
    width: 100%;
    height: auto;
  }
 
- h3 {
-    width: 50%;
-     border: 1px black solid;
-     margin-bottom: 20px;
-     color: white;
-     font-size: 200%;
-     background-color: black;
-}
- .left-side {
+.left-side {
      display: flex;
      flex-wrap: wrap;
      margin: 10%;
  }
 
  .left-side .title {
-     width: 10%;
+     width: 15%;
      border-right: 2px black solid;
      text-align: right;
-     font-size: 250%;
+     font-size: 200%;
      display: flex;
      justify-content: end;
  }
@@ -79,48 +67,61 @@ header h1 {
  }
 
  .card {
-    width: 40%;
     position: relative;
-    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 15%;
+    border: .20rem solid black;
+    
  }
 
 .card h3 {
+    width: 30%;
+    height: 30%;
     position: absolute;
-    z-index: 1;
-    margin: 4%;
-    bottom: 6%;
+    z-index: 1;    
+    bottom: 10%;
     font-size: 120%;
     color: white;
     background-color: black;
+    text-align: right;
 }
-
 
 .section-container ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 200%;
-    }
+}
 
-#image1{
+#image1 {
     position: relative;
     margin-top: auto;
+    border: .25rem solid black;
  }
 
  #image1 h3 {
+    width: 20%;
+    height: 20%;
     position: absolute;
-    z-index: 1;
-    margin: 10px;
+    z-index: 1;    
     bottom: 10%;
     font-size: 150%;
     color: white;
     background-color: black;
  }
 
+ #contact li{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+ }
+
  .fa {
-    padding: 20px;
+    padding: 30px;
     font-size: 30px;
-    width: 50px;
+    width: 50%;
     text-align: center;
     text-decoration: none;
     border-radius: 100%;
@@ -155,4 +156,22 @@ body {
     width: 100%;
     height: 100%;
 }
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 20%;
+}
+
+header h1 {
+   display: flex;
+   justify-content: end;
+   width: 50%;
+   border: 1px white solid;
+   margin-bottom: 20px;
+   color: black;
+   font-size: 200%;
+   background-color: white;
+}
+
 }
