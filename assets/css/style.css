@@ -1,6 +1,7 @@
 header {
      display: flex;
      flex-wrap: wrap;
+     
      background-color: white;
      height: 20%;
 }
@@ -10,7 +11,7 @@ header h1 {
     justify-content: end;
     width: 50%;
     color: white;
-    font-size: 200%;
+    font-size: 40px;
     background-color: black;
  }
 
@@ -24,24 +25,26 @@ header h1 {
     display: flex;
     align-content: center;
     margin: 4%;
+        
  }
 
- nav ul {
+nav ul {
      display: flex;
      flex-direction: row;
      justify-content: space-evenly;
-     font-size: 14pt;
+     font-size: 14pxt;
  }
 
- figure {
+figure {
     background-image: url(https://images6.alphacoders.com/107/thumb-1920-1079688.jpg); 
     background-repeat: no-repeat;
     height: 200px;
+    
 }
 
- img {
-   width: 100%;
-   height: auto;
+img {
+  width: 100%;
+  border: 2px black solid;
  }
 
 .left-side {
@@ -52,37 +55,38 @@ header h1 {
 
  .left-side .title {
      width: 15%;
+     padding: 1%;
      border-right: 2px black solid;
      text-align: right;
-     font-size: 200%;
+     font-size: 30px;
      display: flex;
      justify-content: end;
+     
  }
 
  .left-side .section-container {
      width: 80%;
+     padding: 2%;
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
  }
 
- .card {
+.card {
+    width: 50%;;
     position: relative;
     display: flex;
-    justify-content: space-between;
-    width: 50%;
-    height: 15%;
-    border: .20rem solid black;
+    align-content: space-evenly;
     
  }
 
 .card h3 {
-    width: 30%;
-    height: 30%;
+    width: 120px;
+    height: 50px;
     position: absolute;
     z-index: 1;    
     bottom: 10%;
-    font-size: 120%;
+    font-size: 100%;
     color: white;
     background-color: black;
     text-align: right;
@@ -98,7 +102,6 @@ header h1 {
 #image1 {
     position: relative;
     margin-top: auto;
-    border: .25rem solid black;
  }
 
  #image1 h3 {
@@ -116,6 +119,7 @@ header h1 {
     display: flex;
     position: relative;
     justify-content: space-evenly;
+    align-items: center;
  }
 
  .fa {
@@ -150,13 +154,10 @@ header h1 {
   }
   
   /* For Tablet View */
-@media screen and (min-device-width: 768px)
-and (max-device-width: 1024px) {
-body {
-    width: 100%;
-    height: 100%;
-}
-header {
+@media screen and (min-device-width: 576px)
+and (max-device-width: 992px) {
+
+    header {
     display: flex;
     flex-wrap: wrap;
     background-color: black;
@@ -174,4 +175,9 @@ header h1 {
    background-color: white;
 }
 
+figure {
+    background-image: url(https://images6.alphacoders.com/107/thumb-1920-1079688.jpg); 
+    background-repeat: no-repeat;
+    height: 100px;
+}
 }
