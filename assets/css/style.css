@@ -12,6 +12,7 @@ header h1 {
   color: white;
   font-size: 40px;
   background-color: black;
+  margin-bottom: 1%;
 }
 
 header nav {
@@ -38,7 +39,7 @@ figure {
 img {
   width: 100%;
   border: 2px black solid;
-  margin-bottom: 2%;
+  margin-bottom: center;
 }
 
 .left-side {
@@ -82,6 +83,10 @@ img {
   text-align: right;
   border: 2px black solid;
 }
+.section-container p {
+  margin-left: 2%;
+  font-size: 16px;
+}
 
 .section-container ul {
   display: flex;
@@ -114,40 +119,6 @@ img {
   align-items: center;
 }
 
-.fa {
-  padding: 30px;
-  font-size: 30px;
-  width: 50%;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 100%;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* twitter */
-.fa-twitter {
-  background: #55acee;
-  color: white;
-  width: 100%;
-  font-size: 150% !important;
-}
-/* linkein */
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-  width: 100%;
-  font-size: 150% !important;
-}
-/* github */
-.fa-github {
-  background: black;
-  color: white;
-  width: 100%;
-  font-size: 150% !important;
-}
 
 /* For Tablet View */
 @media screen and (min-device-width: 576px) and (max-device-width: 992px) {
