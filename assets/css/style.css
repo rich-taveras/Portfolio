@@ -1,3 +1,7 @@
+* {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
 header {
   display: flex;
   flex-wrap: wrap;
@@ -115,6 +119,7 @@ img {
   display: flex;
   position: relative;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 /* For Tablet View */
@@ -153,90 +158,12 @@ img {
     border: 2px black solid;
   }
 
-  #contact li {
+  #contact a {
     width: 100%;
     display: flex;
     flex-direction: row;
-    font-size: x-large;
+    font-size: 14px;
     justify-content: space-evenly;
-    margin-top: 20px;
+    align-items: center;
   }
 }
-
-/* For Smartphone View */
-/* @media screen and (min-device-width: 576px) {
-  header {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: black;
-    height: 20%;
-  }
-
-  header h1 {
-    display: flex;
-    justify-content: end;
-    width: 50%;
-    border: 1px white solid;
-    margin-bottom: 20px;
-    color: black;
-    font-size: 100%;
-    background-color: white;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    margin: 3%;
-    justify-content: space-evenly;
-    font-size: 80%;
-  }
-
-  figure {
-    background-image: url(https://images6.alphacoders.com/107/thumb-1920-1079688.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-  }
-
-  .left-side .title {
-    width: 15%;
-    padding: 1%;
-    border-right: 3px black solid;
-    text-align: right;
-    font-size: 20px;
-    display: flex;
-    justify-content: end;
-  }
-
-  .card h3 {
-    width: 50px;
-    height: 30px;
-    position: absolute;
-    z-index: 1;
-    margin-top: 10px;
-    bottom: 10%;
-    font-size: 50%;
-    color: black;
-    background-color: white;
-    text-align: right;
-    border: 2px black solid;
-  }
-
-  #contact ul {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    font-size: 11px;
-    justify-content: space-evenly;
-    margin-top: 20px;
-  }
-
-  #image1 h3 {
-    position: absolute;
-    z-index: 2;
-    bottom: 10%;
-    font-size: 70%;
-    color: black;
-    background-color: white;
-    border: 2px black solid;
-  }
-} */
