@@ -139,15 +139,13 @@ img {
     background-color: white;
   }
 
-    figure {
+  figure {
     background-image: url(https://images6.alphacoders.com/107/thumb-1920-1079688.jpg);
     background-repeat: no-repeat;
     width: 100%;
   }
 
   #image1 h3 {
-    /* width: 20%;
-    height: 20%; */
     position: absolute;
     z-index: 2;
     bottom: 10%;
@@ -155,6 +153,15 @@ img {
     color: black;
     background-color: white;
     border: 2px black solid;
+  }
+
+  #contact li {
+    width: 150%;
+    display: flex;
+    flex-direction: row;
+    /* font-size: x-large; */
+    justify-content: space-evenly;
+    margin-top: 20px;
   }
 }
 
@@ -186,7 +193,7 @@ img {
     font-size: 80%;
   }
 
-    figure {
+  figure {
     background-image: url(https://images6.alphacoders.com/107/thumb-1920-1079688.jpg);
     background-repeat: no-repeat;
     width: 100%;
@@ -218,12 +225,11 @@ img {
 
   #contact a {
     width: 100%;
-  display: flex;
-  flex-direction: row;
-  font-size: xx-small;
-  justify-content: space-evenly;
-  margin-top: 20px;
-
+    display: flex;
+    flex-direction: row;
+    font-size: xx-small;
+    justify-content: space-evenly;
+    margin-top: 20px;
   }
 
   #image1 h3 {
