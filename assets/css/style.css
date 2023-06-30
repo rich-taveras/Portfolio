@@ -44,6 +44,7 @@ img {
   width: 100%;
   border: 2px black solid;
   margin-bottom: center;
+  cursor: grab;
 }
 
 .left-side {
