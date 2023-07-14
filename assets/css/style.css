@@ -91,6 +91,7 @@ img {
 .section-container p {
   margin-left: 2%;
   font-size: 16px;
+  line-height: 1.5;
 }
 
 .section-container ul {
